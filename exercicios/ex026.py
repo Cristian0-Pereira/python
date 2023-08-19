@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: ')).upper().strip()
+frase1 = frase.split()
+unido = ''.join(frase1)
+print(f'Contém {unido.count("A")} "A" na frase')
+print(f'O primeiro "A" está na posição {unido.find("A")+1}')
+print(f'O último "A" está na posição {unido.rfind("A")+1}')

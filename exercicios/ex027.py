@@ -1,0 +1,7 @@
+# nome = input('Escreva seu nome completo: ').title().split()
+# print(f'O primeiro nome é {nome[0]} \nO último nome é {nome[-1]}')
+nome = str(input('Qual seu nome completo? ')).strip().title()
+dividido = nome.split()
+print(f'-> \33[33m{nome}\33[m <-')
+print(f'Primeiro nome: {dividido[0]}')
+print(f'Último nome: {dividido[-1]}')
